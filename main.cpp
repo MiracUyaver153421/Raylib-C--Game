@@ -209,16 +209,16 @@ int main()
                 DrawText("GAME OVER", SCREENWIDTH/2 - 100, SCREENHEIGHT/2, 40, RED);
             EndDrawing();
 
-            WaitTime(3.0f);  // 3 saniye yazıyı göster
+            WaitTime(5.0f);
             CloseWindow();
         }
         if(collaptionCounter >= 23){
             BeginDrawing();
-                ClearBackground(BLACK);  // Ekranı siyaha boyamak istersen
+                ClearBackground(BLACK);
                 DrawText("GAME COMPLETED", SCREENWIDTH/2 - 100, SCREENHEIGHT/2, 40, GREEN);
             EndDrawing();
 
-            WaitTime(3.0f);  // 3 saniye yazıyı göster
+            WaitTime(5.0f);
             CloseWindow();
         }
         EndDrawing();
