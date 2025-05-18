@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1747477930 source:/home/mirac/codeblock-workspace/game/main.cpp
+1747570604 source:/home/mirac/codeblock-workspace/game/main.cpp
 	<iostream>
 	<stdlib.h>
 	"raylib.h"
